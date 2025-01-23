@@ -8,15 +8,16 @@ header{
     justify-content: start;
     align-items: flex-start;
     width: 100%;
-    height: 15vh;
+    height: 10vh;
 }
+
 
 .logo{
     width: 200px;
-    height: 15vh;
+    height: 10vh;
 }
 
-#fundo{
+.fundo{
     background-image: linear-gradient(black, black), url(planodefundo.png);
     background-position: 50% 50%;
     background-size: cover;
@@ -25,28 +26,28 @@ header{
 
 
 
-#central{
+.central{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     
 }
 
-#paginalogin{
+.paginalogin{
     display:flex;
     flex-direction: column;
     justify-content: flex-start;    
     align-items: center;
     background-color: rgb(0 0 0 / 0.7);
     width: 400px;
-    height: 70vh;
+    height: 500px;
     
 }
 
-#dados{
+.dados{
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -56,7 +57,7 @@ header{
     
 }
 
-#entrar{
+.entrar{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -72,38 +73,47 @@ h1{
 
 h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: darkslategray;
-    font-size: small;
+    color: rgb(75, 75, 75);
+    font-size: medium;
 }
 
 ::placeholder{
     color: rgb(105, 105, 105);
+    
 }
 
 
 
 .pergunta{
-    width: 20vw;
     margin: 5px;
     background: rgb(48, 48, 48);
+    color: white;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 1px;
     border-style:solid; 
     border-width:1px;
+    height: 35px;
+    line-height: 35px;
+    width: 290px ;
+    text-indent: 15px;
     
     
 
 }
 
 .botao{
-    width: 21vw;
-    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    line-height: 35px;
+    width: 290px ;
     margin: 5px;
     color: white;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(248, 95, 39);
+    background-color: rgb(245, 130, 50);
      
     border-width:2px;
     border-radius: 3px;
@@ -112,8 +122,13 @@ h3{
 }
 
 .botao2{
-    width: 21vw;
-    height: 5vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    line-height: 35px;
+    width: 290px ;
     color: white;
     margin: 10px;
     font-size: 20px;
@@ -151,7 +166,7 @@ h3{
     user-select: none;
   }
 
-#lembrar{
+.lembrar{
     display: flex;
     flex-direction: row;
     width: 20vw;
@@ -165,7 +180,7 @@ label{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#assinar{
+.assinar{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -190,7 +205,7 @@ label{
     font-size: medium;
     cursor: pointer;
     margin: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -204,20 +219,22 @@ label{
     width: 15vw;
     height: 20px;
     margin:5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 
 #final{
     display:flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: self-start;
     background-color: black;
     width: 100%;
-    height: 28vh;
+    height: 35vh;
 }
 
 .finalcima{
-    margin-left: 20px;
+    margin-left: 35px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -234,12 +251,12 @@ label{
 }
 
 .finalmeio2{
-    margin-left: 8px;
+    margin-left: 7px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    width: 45%;
+    width: 46%;
     margin-top: 10px;
 }
 
@@ -247,6 +264,26 @@ label{
     color: white;
     font-size: medium;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.setaparabaixo{
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    background: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: x-large;
+    border: none;
+}
+
+.finalbaixo{
+    
+    margin-left: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 
